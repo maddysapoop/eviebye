@@ -9,21 +9,7 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="oled_setcursor" id="239" inline="true">
-            <value name="STARTX">
-              <block type="math_number" id="246">
-                <field name="NUM">0</field>
-              </block>
-            </value>
-            <value name="STARTY">
-              <block type="math_number" id="253">
-                <field name="NUM">0</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_forward" id="179"></block>
-            </next>
-          </block>
+          <block type="movement_forward" id="179"></block>
         </statement>
         <next>
           <block type="movement_stop" id="155"></block>
